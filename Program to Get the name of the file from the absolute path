@@ -1,0 +1,13 @@
+import java.io.File;
+
+class Main {
+
+  public static void main(String[] args) {
+
+    File file = new File("C:\\Users\\Desktop\\Java\\Testing.class");
+
+    String fileName = file.getName();
+    System.out.println("File Name: " + fileName);
+
+  }
+}
